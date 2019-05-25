@@ -1,0 +1,164 @@
+.slider-caontainer {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-timeline {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    height: 100px;
+}
+
+.slider-year-main {
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.slider-year-pre {
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.slider-year-next {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.slider-year-item {
+    display: inline-block;
+    width: 160px;
+    vertical-align: bottom;
+}
+
+.slider-year-first {
+    transition: margin-left 1s;
+}
+
+.slider-year-item-line {
+    text-align: center;
+    position: relative;
+    height: 20px;
+}
+
+.slider-year-item-text {
+    height: 60px;
+}
+.empty {
+    height: 12px;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: #666666;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+}
+
+.line {
+    height: 2px;
+    background: #d3d3d3;
+}
+
+.slider-year-item-text {
+    text-align: center;
+    font-size: 32px;
+}
+
+.slider-year-active .slider-year-item-text{
+    font-size: 40px;
+    color: rgb(42, 42, 241);
+}
+
+.slider-year-active .dot {
+    background: rgb(42, 42, 241);
+}
+
+.slider-timeline button {
+    font-size: 30px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.slider-timeline button:active {
+    border: none;
+}
+
+.slider-timeline button:focus {
+    outline: none;
+}
+
+.slider-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.slider-content-item > span {
+    display: inline-block;
+    width: 400px;
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.slider-content-middle {
+    position: absolute;
+    left: 400px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+}
+
+.slider-content-line {
+    background: #666666;
+    height: 100%;
+    width: 2px;
+}
+
+.slider-content-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: rgb(42, 42, 241);
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    margin-top: -6px;
+}
+
+.vertical-middle {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.left-date {
+    right: 420px;
+}
+
+.right-date {
+    left: 420px;
+}
+
+div.slider-content-item {
+    position: relative;
+    transition: display 2s;
+}
